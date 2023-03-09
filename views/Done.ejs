@@ -1,0 +1,31 @@
+<%- include("header") -%>
+
+    <div>
+      <h1 class="box" id="heading">Done Tasks</h1>
+      <div class="box">
+        <% for(let i = 0; i < doneListItems.length; i++){%>
+        <div class="item">
+          <input type="checkbox" />
+          <p><%= doneListItems[i] %></p>
+        </div>
+        <% } %>
+        <div class="item">
+          <form action="/Done" method="post">
+            <input
+              type="text"
+              name="doneItem"
+              placeholder="Done item"
+              autocomplete="off"
+            />
+            <button type="submit">+</button>
+          </form>
+        </div>
+      </div>
+      <div class="box-sp">
+        <button id="done-btn">
+          <a href="/" id="btn-txt"> Back </a>
+        </button>
+      </div>
+    </div>
+    <%- include("footer") -%>
+

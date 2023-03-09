@@ -1,0 +1,38 @@
+html {
+  background: linear-gradient(120deg, #ff0000 0%, #848484 100%);
+  min-height: 713px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 300;
+  padding: 10px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+button {
+  min-height: 50px;
+  width: 80px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+.box-sp {
+  max-width: 400px;
+  margin: 50px auto;
+  position: relative;
+  left: 170px;
+}
+
+#btn-txt {
+  color: white;
+  text-decoration: none;
+}
